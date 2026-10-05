@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio (Next.js 14, App Router, TypeScript, Tailwind)
 
 ## Structure
@@ -33,3 +34,6 @@ npm run dev
 
 ## Deploy
 Works on Vercel out of the box, or Netlify via `@netlify/plugin-nextjs`.
+=======
+# Portfolio
+>>>>>>> 59d7fd36eea681395a7ac102a2019a7fd03633c4
