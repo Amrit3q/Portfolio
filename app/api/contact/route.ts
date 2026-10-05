@@ -116,7 +116,7 @@ export async function POST(request: Request) {
         const resend = new Resend(process.env.RESEND_API_KEY!);
         const { error: emailError } = await resend.emails.send({
             from: "Portfolio <onboarding@resend.dev>",
-            to: [process.env.CONTACT_EMAIL!],
+            to: [process.env.NEXT_PUBLIC_CONTACT_EMAIL!],
             subject: `New portfolio message from ${name}`,
             replyTo: email,
 
