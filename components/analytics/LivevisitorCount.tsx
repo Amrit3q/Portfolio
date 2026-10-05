@@ -41,7 +41,9 @@ export default function LiveVisitorCount() {
   useEffect(() => {
     const fetchMonthlyVisitors = async () => {
       try {
-        const response = await fetch("/api/analytics/monthly");
+        const response = await fetch("/api/analytics/monthly", {
+          cache: "no-store",
+        });
 
         if (!response.ok) return;
 
