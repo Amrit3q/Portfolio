@@ -53,14 +53,16 @@ export default function JapanEcommerceCard({...props}) {
           </p>
 
           {/* Proof */}
+          {props.val && (
           <div className="grid grid-cols-2 border-y border-neutral-800 py-5 md:grid-cols-4">
             <Metric value="20+" label="Interconnected pages" />
             <Metric value="30+" label="Reusable components" />
             <Metric value="5K+" label="Row data tables" />
             <Metric value="CWV" label="Performance improvements" />
           </div>
-
+            )}
           {/* Stack */}
+          {props.val ? (
           <div className="mt-5 flex flex-wrap gap-2">
             {["Next.js", "React", "TypeScript", "Redux", "GraphQL"].map(
               (tech) => (
@@ -72,7 +74,21 @@ export default function JapanEcommerceCard({...props}) {
                 </span>
               )
             )}
+          </div>)
+          :(
+          <div className="mt-5 flex flex-wrap gap-2">
+            {["AngularJS", "Springboot", "TypeScript", "Mysql"].map(
+              (tech) => (
+                <span
+                  key={tech}
+                  className="rounded-full bg-neutral-900 px-3 py-1.5 text-xs text-neutral-400"
+                >
+                  {tech}
+                </span>
+              )
+            )}
           </div>
+            )}
         </div>
       </article>
     </Link>

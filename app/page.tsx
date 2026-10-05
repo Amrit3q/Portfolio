@@ -37,7 +37,7 @@ export default function HomePage() {
 
             <div className="grid gap-6 sm:grid-cols-2">
               
-              <JapanEcommerceCard image={Data[0].image} title={Data[0].title} company={Data[0].company} description={Data[0].description} url={Data[0].url} />
+              <JapanEcommerceCard image={Data[0].image} title={Data[0].title} company={Data[0].company} description={Data[0].description} url={Data[0].url} val={true}/>
 
               <JapanEcommerceCard image={Data[1].image} title={Data[1].title} company={Data[1].company} description={Data[1].description} url={Data[1].url} />
 
