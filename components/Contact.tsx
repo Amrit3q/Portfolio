@@ -30,7 +30,7 @@ export default function ContactPage() {
       <div className="mt-10 border-t border-white/10 pt-6 text-sm text-white/40">
       <div className="flex items-center gap-3">
         <Link
-  href="mailto:your.email@gmail.com"
+  href="mailto:amritanshu030801@gmail.com"
   aria-label="Email"
   className="flex h-9 w-9 items-center justify-center rounded-full
              border border-white/10
