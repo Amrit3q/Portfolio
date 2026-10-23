@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   description: "Software Engineer — frontend & full-stack projects, experience, and writing.",
 };
 
+<meta name="google-adsense-account" content="ca-pub-2485953622639589" />
+
 export default function RootLayout({
   children,
 }: {
