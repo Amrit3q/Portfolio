@@ -8,9 +8,11 @@ import LiveVisitorTracker from "@/components/analytics/LiveVisitorTracker";
 export const metadata: Metadata = {
   title: "Amritanshu Singh — Portfolio",
   description: "Software Engineer — frontend & full-stack projects, experience, and writing.",
+  other: {
+    "google-adsense-account": "ca-pub-2485953622639589",
+  },
 };
 
-<meta name="google-adsense-account" content="ca-pub-2485953622639589" />
 
 export default function RootLayout({
   children,
